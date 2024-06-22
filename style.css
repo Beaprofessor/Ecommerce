@@ -1,9 +1,4 @@
-/* Default Light Mode Styles */
-body {
-  background-color: #f8f9fa; /* Light background */
-  color: #212529; /* Default text color */
-}
-
+/* Navbar Styles for Light Mode */
 body .navbar {
   background-color: #f8f9fa !important; /* Light background for navbar */
   color: #212529 !important; /* Dark text color for light mode */
@@ -20,6 +15,7 @@ body .navbar .dropdown-item:hover {
   color: #000000 !important; /* Slightly darker text on hover */
 }
 
+/* Dropdown Menu Styles for Light Mode */
 body .dropdown-menu {
   background-color: #ffffff !important; /* Light background for dropdown menu */
 }
@@ -28,6 +24,30 @@ body .dropdown-item:hover {
   background-color: #e9ecef !important; /* Light gray background on hover */
   color: #000000 !important; /* Dark text on hover */
 }
+
+/* Footer Styles for Light Mode */
+#footer1 {
+  background-color: #f8f9fa !important; /* Light background for footer */
+  color: #212529 !important; /* Dark text color */
+}
+
+#footer1 .nav-link, 
+#footer1 .text-muted {
+  color: #212529 !important; /* Dark text color for links and text */
+}
+
+#footer1 .nav-item .nav-link:hover {
+  color: #000000 !important; /* Slightly darker text on hover */
+}
+
+/* Divider Styles for Light Mode */
+.custom-divider {
+  height: 3rem;
+  background-color: #f8f9fa;
+}
+
+
+
 
 /* Dark Mode Styles */
 body.dark-mode {
@@ -41,14 +61,15 @@ body.dark-mode .navbar {
   color: #f8f9fa !important; /* Light text color for dark mode */
 }
 
+/* Enhanced Specificity for Navbar Links in Dark Mode */
 body.dark-mode .navbar .nav-link, 
 body.dark-mode .navbar .navbar-brand, 
-body.dark-mode .dropdown-item {
+body.dark-mode .navbar .dropdown-item {
   color: #f8f9fa !important; /* Light text for dark mode */
 }
 
 body.dark-mode .navbar .nav-link:hover, 
-body.dark-mode .dropdown-item:hover {
+body.dark-mode .navbar .dropdown-item:hover {
   color: #e9ecef !important; /* Slightly lighter text on hover */
 }
 
@@ -61,6 +82,17 @@ body.dark-mode .dropdown-item:hover {
   background-color: #495057 !important; /* Dark gray background on hover */
   color: #f8f9fa !important; /* Light text on hover */
 }
+
+/* Dropdown Toggle Button Styles for Dark Mode */
+body.dark-mode .navbar .dropdown-toggle {
+  color: #f8f9fa !important; /* Light text for dark mode */
+}
+
+body.dark-mode .navbar .dropdown-toggle:hover {
+  color: #e9ecef !important; /* Slightly lighter text on hover */
+}
+
+#darkModeSwitch
 
 /* Footer Styles for Dark Mode */
 body.dark-mode #footer1 {
