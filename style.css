@@ -2,6 +2,8 @@
 body .navbar {
   background-color: #f8f9fa !important; /* Light background for navbar */
   color: #212529 !important; /* Dark text color for light mode */
+  position: sticky;
+  top: 0;
 }
 
 body .navbar .nav-link, 
